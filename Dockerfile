@@ -18,3 +18,4 @@ RUN \
   rm -f ruby-2.3.0.tar.gz
 
 RUN gem install bundler --no-ri --no-rdoc
+RUN gem install jekyll
